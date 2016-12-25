@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+
+    <style name="SettingsTheme" parent="AppTheme">
+
+    </style>
+
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+
+    <style name="ForecastListStyle">
+
+    </style>
+
+    <style name="AppTheme.Main" parent="@style/AppTheme" />
+
+    <style name="AppTheme.Details" parent="@style/AppTheme" />
+
+</resources>
